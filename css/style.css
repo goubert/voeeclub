@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+box-sizing: border-box;
+
+}
+
+
+body{
+    background: #001C2D;
+    padding: 16px;
+}
+.main-wrap{
+    background: #FFFFFF;
+    border-radius: 24px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cadastro-wrap{
+    background: #00253A;
+    border-radius: 24px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+#mc_embed_signup .mc-field-group{
+    padding: 0;
+    background: red;
+    margin: 0;
+    width: 100%;
+}
+
+#mc_embed_signup .foot{
+    display: block !important;
+}
+
+#mc_embed_signup form{
+    margin: 0;
+}
+
+#mc_embed_signup .mc-field-group input , #mc_embed_signup .mc-field-group select{
+    background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.18);
+border-radius: 60px;
+outline: none;
+color: #EDFDFF;
+font-size: 16px;
+transition: all 250ms ease;
+padding: 8px 16px !important;
+}
+
+#mc_embed_signup .mc-field-group input:hover{
+    background: rgba(255, 255, 255, 0.184);
+border: 1px solid rgba(255, 255, 255, 0.356);
+}
+
+#mc_embed_signup .mc-field-group input:focus{
+    background: rgb(255, 255, 255);
+border: 1px solid rgb(255, 255, 255);
+color: #001C2D;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error{
+    background: rgba(139, 0, 0, 0.324);
+    border: 1px solid rgba(211, 0, 0, 0.307) !important;
+    outline: none;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error:focus{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: #001C2D;
+}
+
+#mc_embed_signup .mc-field-group label {
+    color: #FFFFFF;
+}
+
+#mc_embed_signup .button{
+    background: linear-gradient(271.13deg, #00A7EF 3.93%, #00D3EF 100%) !important;
+border-radius: 70px !important;
+padding: 16px 8px;
+transition: all 350ms ease !important;
+}
+
+#mc_embed_signup .button:hover{
+    background: linear-gradient(271.13deg, #006cef 3.93%, #0019bd 100%) !important;
+border-radius: 70px !important;
+transition: all 350ms ease !important;
+
+}
+
