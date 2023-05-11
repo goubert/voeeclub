@@ -13,6 +13,10 @@ padding: 0;
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 body{
     background: #001C2D;
@@ -106,6 +110,17 @@ color: #000000;
     padding: 24px;
 }
 
+.cadastro-wrap h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    /* identical to box height, or 28px */
+    
+    text-align: center;
+    margin: 20px auto;
+    color: #FFFFFF;
+}
+
 
 #mc_embed_signup .mc-field-group{
     padding: 0;
@@ -172,7 +187,7 @@ color: #001C2D;
     color: #FFFFFF;
 }
 
-#mc_embed_signup .button , .botao-cadastrar{
+#mc_embed_signup .button{
     background: linear-gradient(271.13deg, #00A7EF 3.93%, #00D3EF 100%) !important;
 border-radius: 70px !important;
 padding: 8px 24px !important;
@@ -185,6 +200,23 @@ font-weight: 700 !important;
 height: auto !important;
 line-height: 32px;
 margin: 16px auto !important;
+}
+
+.botao-cadastrar{
+    background: linear-gradient(271.13deg, #00A7EF 3.93%, #00D3EF 100%) !important;
+border-radius: 70px !important;
+padding: 8px 24px !important;
+transition: all 350ms ease !important;
+border: 0;
+display: table !important;
+cursor: pointer;
+color: #fff;
+font-weight: 700 !important;
+height: auto !important;
+line-height: 32px;
+margin: 16px auto !important;
+text-align: center;
+text-decoration: none;
 }
 
 #mc_embed_signup .button:hover , .botao-cadastrar:hover{
@@ -202,4 +234,46 @@ transition:all 350ms ease !important;
 
 #mc_embed_signup .brandingLogo img{
     width: 140px;
+}
+
+
+/* max-width  */
+@media screen and (max-width: 600px) {
+
+
+    .main-wrap img{
+        margin: 0 auto;
+    }
+    .texto-hero{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-img {
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .info-img img{
+        width: 300px;
+    }
+
+    .texto-hero h1 {
+
+    font-size: 24px;
+    
+    }
+    
+    .texto-hero h4{
+    font-size: 14px;
+
+    }
+    
+    .list-info{
+        flex-direction: column;
+    }
+
 }
