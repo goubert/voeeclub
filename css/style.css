@@ -34,8 +34,7 @@ body{
 
 #mc_embed_signup .mc-field-group{
     padding: 0;
-    background: red;
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -44,7 +43,8 @@ body{
 }
 
 #mc_embed_signup form{
-    margin: 0;
+    margin: 0 auto !important;
+    max-width: 400px;
 }
 
 #mc_embed_signup .mc-field-group input , #mc_embed_signup .mc-field-group select{
@@ -56,6 +56,18 @@ color: #EDFDFF;
 font-size: 16px;
 transition: all 250ms ease;
 padding: 8px 16px !important;
+}
+
+#mc_embed_signup .helper_text {
+    background: transparent !important;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error{
+    background: rgba(50, 0, 0, 0.212) !important;
+    border: none;
+    font-size: 12px !important;
+    border-radius: 40px !important;
+    color: rgb(252, 167, 167) !important;
 }
 
 #mc_embed_signup .mc-field-group input:hover{
@@ -95,7 +107,7 @@ transition: all 350ms ease !important;
 #mc_embed_signup .button:hover{
     background: linear-gradient(271.13deg, #006cef 3.93%, #0019bd 100%) !important;
 border-radius: 70px !important;
-transition: all 350ms ease !important;
+transition: 350ms ease !important;
 
 }
 
