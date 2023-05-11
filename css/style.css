@@ -239,14 +239,21 @@ transition:all 350ms ease !important;
 
 /* max-width  */
 @media screen and (max-width: 600px) {
-
+    .main-wrap{
+        text-align: center;
+    }
 
     .main-wrap img{
         margin: 0 auto;
+        text-align: center;
     }
     .texto-hero{
         flex-direction: column;
         width: 100%;
+        text-align: center;
+    }
+
+    .texto-hero h1 , .texto-hero h4 {
         text-align: center;
     }
 
