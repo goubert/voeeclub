@@ -137,12 +137,23 @@ color: #000000;
     max-width: 400px;
 }
 
-#mc_embed_signup .mc-field-group input , #mc_embed_signup .mc-field-group select{
+#mc_embed_signup .mc-field-group input{
     background: rgba(255, 255, 255, 0.1);
 border: 1px solid rgba(255, 255, 255, 0.18);
 border-radius: 60px;
 outline: none;
 color: #EDFDFF;
+font-size: 16px;
+transition: all 250ms ease;
+padding: 8px 16px !important;
+}
+
+#mc_embed_signup .mc-field-group select{
+    background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.18);
+border-radius: 60px;
+outline: none;
+color: #000;
 font-size: 16px;
 transition: all 250ms ease;
 padding: 8px 16px !important;
