@@ -84,6 +84,8 @@ text-align: left;
     background: #EDFDFF;
     padding: 24px;
     border-radius: 24px;
+    width: 0;
+    flex: 1;
 }
 
 .list-info .card-info h3{
